@@ -1,0 +1,88 @@
+.customers-section {
+    width: 1170px;
+    height: 184px;
+    margin: 0 auto;
+    margin-bottom: 94px;
+}
+
+.customers-name {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 94px;
+    padding-bottom: 50px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 30px;
+}
+
+.customers-item {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    flex-basis: calc((100% - 150px) / 6);
+}
+
+.customers-item:hover {
+    border-color: $accent-color;
+}
+
+.customers-icon {
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    fill: #AFB1B8;
+}
+
+.customers-link:hover .customers-icon {
+    color: $accent-color;
+    fill: $accent-color;
+}
+
+.ya-co {
+    width: 41px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.icon-company-tag-line-here {
+    width: 40px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.icon-company {
+    width: 45px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.icon-foster-peters {
+    width: 84px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.icon-brand {
+    width: 63px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.icon-company-tag-line {
+    width: 94px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}

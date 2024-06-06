@@ -1,0 +1,86 @@
+.hero-section-button {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+    border-radius: 4px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border: none;
+    display: block;
+    margin: auto;
+    padding: 10px 32px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    animation-name: button;
+    animation: button 5000ms linear infinite 1000ms;
+
+    @keyframes button {
+            0% {
+                background: #2196f3;
+                color: #fff;
+            }
+    
+            50% {
+                background: $white;
+                color: #2196f3;
+            }
+    
+            100% {
+                background: #2196f3;
+                color: #fff;
+            }
+        }
+}
+.newsletter-btn {
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #2196f3;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    border: none;
+}
+.save-data-btn {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: $accent-color;
+    border: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: $white;
+    margin-top: 30px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
+.save-data-btn {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: $accent-color;
+    border: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: $white;
+    margin-top: 30px;
+    margin-left: 165px;
+    margin-right: 165px;
+}
