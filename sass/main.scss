@@ -3,12 +3,13 @@
 @import 'base/tupography';
 @import 'abstracts/placehplders';
 @import 'abstracts/veriables';
-@import 'components/buttons';
 @import 'layout/header';
+@import 'layout/footer';
+@import 'components/buttons';
 @import 'components/hero-section';
 @import 'components/opportunities';
 @import 'components/employment';
 @import 'components/team';
-@import 'layout/customers-section';
-@import 'layout/footer';
-@import 'layout/backdrop';
+@import 'components/backdrop';
+@import 'components/customers-section';
+@import 'components/project-section';
