@@ -7,6 +7,7 @@
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
+
 }
 
 .backdrop.is-hidden {
@@ -51,7 +52,9 @@
     width: 11px;
     height: 11px;
 }
+.modal-close {
 
+}
 .modal-close-svg:hover {
     fill: $accent-color;
 }

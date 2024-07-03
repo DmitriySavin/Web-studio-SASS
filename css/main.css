@@ -302,11 +302,6 @@ a:active {
   color: #fff;
 }
 
-.newsletter-btn-svg {
-  width: 24px;
-  height: 24px;
-}
-
 .hero-section-button {
   color: #fff;
   font-size: 16px;
@@ -355,6 +350,15 @@ a:active {
   color: #fff;
   position: absolute;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 28px;
+}
+
+.newsletter-btn-svg {
+  width: 24px;
+  height: 24px;
 }
 
 .save-data-btn {
