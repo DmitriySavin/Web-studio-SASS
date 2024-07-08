@@ -198,7 +198,7 @@ a:active {
 
 .logo-logo-footer {
   background-color: hsl(235, 10%, 21%);
-  padding-top: 60px;
+  padding-top: 72px;
   padding-bottom: 60px;
   max-width: 1600px;
   margin: 0 auto;
@@ -319,6 +319,10 @@ a:active {
   color: #fff;
 }
 
+.form-footer {
+  display: flex;
+}
+
 .hero-section-button {
   color: #fff;
   font-size: 16px;
@@ -365,12 +369,13 @@ a:active {
   letter-spacing: 0.06em;
   text-align: center;
   color: #fff;
-  position: absolute;
   border: none;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px 28px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
 
 .newsletter-btn-svg {
