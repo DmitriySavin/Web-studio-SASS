@@ -801,6 +801,14 @@ a:active {
   padding-left: 35px;
 }
 
+.modal-input:focus {
+  border: 1px solid #2196f3;
+}
+
+.modal-input:focus .modal-icon {
+  fill: #2196f3;
+}
+
 .input-comment {
   width: 448px;
   height: 120px;
