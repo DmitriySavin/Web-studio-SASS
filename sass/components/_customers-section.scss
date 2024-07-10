@@ -1,7 +1,21 @@
-
+@media screen and (min-width: 480px) {
+   .customers-section {
+    // height: 519px;
+   }
+    .customers-name {
+        font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 28px;
+            letter-spacing: 0.03em;
+            text-align: center;
+            margin-top: 60px;
+                padding-bottom: 30px;
+    }
+   
+}
 .customers-section {
     width: 1170px;
-    height: 184px;
+    // height: 184px;
     margin: 0 auto;
     margin-bottom: 94px;
 }
@@ -12,8 +26,8 @@
     font-size: 36px;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-top: 94px;
-    padding-bottom: 50px;
+    // margin-top: 94px;
+    // padding-bottom: 50px;
 }
 
 .customers-list {

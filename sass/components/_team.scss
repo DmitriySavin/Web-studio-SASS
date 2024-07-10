@@ -1,3 +1,18 @@
+@media screen and (min-width: 480px) {
+    .team-img {
+        width: 450px;
+            height: 460px;
+    }
+    .team-item {
+        border-radius: 0 0 4px 4px;
+            width: 450px;
+            height: 622px;
+           
+    }
+    .team-item + .team-item {
+        margin-bottom: 40px;
+    }
+}
 .team {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -40,9 +55,9 @@
     flex-basis: calc((100% - 60px) / 4);
 }
 
-.team-item+.team-item {
-    margin-left: 30px;
-}
+// .team-item+.team-item {
+//     margin-left: 30px;
+// }
 
 .icon-list {
     display: flex;
