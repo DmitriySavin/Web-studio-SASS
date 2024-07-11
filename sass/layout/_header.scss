@@ -1,3 +1,17 @@
+@media screen and (min-width: 480px) {
+    .header {
+      width: 480px;
+        height: 60px;  
+    }
+    .accent-logo {
+            font-weight: 700;
+                font-size: 24px;
+                letter-spacing: 0.03em;
+                text-align: center;
+                color: #2196f3;
+    }
+    
+}
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
