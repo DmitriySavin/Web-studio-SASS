@@ -51,6 +51,7 @@
 
 .address-header-list {
     margin-left: auto;
+    display: none;
 }
 
 .address-header-item {
@@ -127,7 +128,8 @@ a:active {
 }
 
 .flex-navigation-list {
-    display: flex;
+    // display: flex;
+    display: none;
     /* padding-left: 93px; */
 }
 
