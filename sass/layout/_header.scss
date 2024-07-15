@@ -2,7 +2,12 @@
     .header {
       width: 480px;
         height: 60px;  
+        display: flex;
+        align-items: center;
     }
+        .flex-header {
+            position: relative;
+        }
     .accent-logo {
             font-weight: 700;
                 font-size: 24px;
@@ -10,7 +15,12 @@
                 text-align: center;
                 color: #2196f3;
     }
-    
+    .header-burger {
+        width: 40px;
+        height: 40px;
+            position: absolute;
+                right: 15px;
+    }
 }
 .header {
     padding-top: 24px;
@@ -25,7 +35,7 @@
 .flex-header-portfolio {
     display: flex;
     align-items: center;
-    padding-bottom: 94px;
+    // padding-bottom: 94px;
 
 }
 /* Логотип вебстудио */

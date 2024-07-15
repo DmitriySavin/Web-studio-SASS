@@ -25,11 +25,12 @@
 }
 
 .flex-project-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding-bottom: 94px;
+display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    // gap: 30px;
+    padding-bottom: 60px;
+    // padding-bottom: 94px;
 }
 
 .project-list-card {
@@ -46,9 +47,8 @@
 
 .projects-item {
     border: 1px solid #eee;
-    flex-basis: calc(100% / 3 - 30px);
+    // flex-basis: calc(100% / 3 - 30px);
 }
-
 .projects-item:hover {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
         0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
