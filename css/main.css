@@ -985,6 +985,99 @@ a:active {
   align-items: center;
 }
 
+.burger-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 32px;
+  background-color: #fff;
+  z-index: 999;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.burger-modal.is-open {
+  transform: translateX(0);
+}
+
+.list-item-link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 40px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.list-item-link:hover {
+  color: #2196f3;
+}
+
+.burger-close {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  position: absolute;
+  top: 11px;
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.burger-close-svg {
+  fill: #212121;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+  width: 19px;
+  height: 19px;
+}
+
+.burger-close-svg:hover {
+  fill: #2196f3;
+}
+
+.burger-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.burger-list-addr {
+  margin-top: 295px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.addr-link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.addr-link:hover {
+  color: #2196f3;
+}
+
+.burger-nav-list {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  margin-top: 44px;
+}
+
+.nav-list-link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 122%;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
 @media screen and (min-width: 480px) {
   .customers-section {
     width: 450px;
