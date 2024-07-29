@@ -77,6 +77,8 @@ body {
     height: 40px;
     position: absolute;
     right: 15px;
+    background: none;
+    border: none;
   }
 }
 .header {
@@ -836,13 +838,14 @@ a:active {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 35px;
+  outline: none;
 }
 
 .modal-input:focus {
   border: 1px solid #2196f3;
 }
 
-.modal-input:focus .modal-icon {
+.modal-input:focus ~ .modal-icon {
   fill: #2196f3;
 }
 
@@ -1002,6 +1005,11 @@ a:active {
   transform: translateX(0);
 }
 
+.header-burger-svg {
+  width: 40px;
+  height: 40px;
+}
+
 .list-item-link {
   font-family: var(--font-family);
   font-weight: 500;
@@ -1023,6 +1031,11 @@ a:active {
   width: 30px;
   height: 30px;
   cursor: pointer;
+}
+
+.burger-close:hover,
+.burger-close:focus {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .burger-close-svg {
