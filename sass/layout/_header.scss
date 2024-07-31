@@ -1,168 +1,181 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) {
     .header {
-      width: 480px;
-        height: 60px;  
-        display: flex;
-        align-items: center;
+        width: 768px;
+        height: 80px;
     }
-        .flex-header {
-            position: relative;
-        }
-    .accent-logo {
-            font-weight: 700;
-                font-size: 24px;
-                letter-spacing: 0.03em;
-                text-align: center;
-                color: #2196f3;
+
+    .flex-navigation-list {
+        display: flex;
+        
+    }
+   .address-header-list {
+        display: flex;
     }
     .header-burger {
-        width: 40px;
-        height: 40px;
-            position: absolute;
-                right: 15px;
-                    background: none;
-                        border: none;
+        display: none;
     }
-}
-.header {
-    padding-top: 24px;
-    padding-bottom: 25px;
-    /* padding: 24px 0px 25px; */
-}
 
-.flex-header {
+ 
+}
+@media screen and (min-width: 480px) {
+  .header {
+    width: 480px;
+    height: 60px;
     display: flex;
     align-items: center;
+  }
+  .flex-header {
+    position: relative;
+  }
+  .accent-logo {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #2196f3;
+  }
+  .header-burger {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 15px;
+    background: none;
+    border: none;
+  }
+  .flex-navigation-list {
+      display: none;
+  }
+  .address-header-list {
+      margin-left: auto;
+      display: none;
+  }
+}
+
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+//   /* padding: 24px 0px 25px; */
+}
+.flex-header {
+  display: flex;
+  align-items: center;
 }
 .flex-header-portfolio {
-    display: flex;
-    align-items: center;
-    // padding-bottom: 94px;
-
+  display: flex;
+  align-items: center;
+  // padding-bottom: 94px;
 }
 /* Логотип вебстудио */
 .logo {
-    color:$main-color;
-    font-family: Raleway;
-    font-size: 26px;
-    letter-spacing: 0.78px;
-    display: flex;
+  color: $main-color;
+  font-family: Raleway;
+  font-size: 26px;
+  letter-spacing: 0.78px;
+  display: flex;
 }
 
 .accent-logo {
-    color:$accent-color;
-    font-family: Raleway;
-    font-size: 26px;
-    letter-spacing: 0.78px;
+  color: $accent-color;
+  font-family: Raleway;
+  font-size: 26px;
+  letter-spacing: 0.78px;
 }
 
 /* почта и эмейл */
 .flex-header-address {
-    display: flex;
+  display: flex;
 }
-
-.address-header-list {
-    margin-left: auto;
-    display: none;
-}
-
 .address-header-item {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .address-header-item:hover {
-    color:$accent-color;
-    fill: $accent-color;
+  color: $accent-color;
+  fill: $accent-color;
 }
 
 .address-header-link {
-    color: var(--add-color);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    letter-spacing: 0.28px;
-    min-width: 161px;
-    display: flex;
-    align-items: center;
+  color: var(--add-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  min-width: 161px;
+  display: flex;
+  align-items: center;
 }
 
-.address-header-list+.address-header-list {
-    margin-right: 50px;
+.address-header-list + .address-header-list {
+  margin-right: 50px;
 }
 
 .navigation ol li {
-    display: inline-block;
+  display: inline-block;
 }
 
 a {
-    text-decoration: none;
-    color: #212121;
+  text-decoration: none;
+  color: #212121;
 }
 
 a:hover {
-    color: #2196f3;
+  color: #2196f3;
 }
 
 a:active {
-    color: #2196f3;
-    text-decoration: none;
+  color: #2196f3;
+  text-decoration: none;
 }
 
 .navigation-link {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.28px;
-    position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  position: relative;
 }
 
 .navigation-link::after {
-    content: '';
-    display: block;
-    border-radius: 2px;
-    width: 100%;
-    height: 4px;
-    background-color: $accent-color;
-    position: absolute;
-    top: 44px;
-    opacity: 0;
-    transition: opacity 500ms ease, transform 500ms ease;
-    transform: scale(0);
+  content: "";
+  display: block;
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
+  background-color: $accent-color;
+  position: absolute;
+  top: 44px;
+  opacity: 0;
+  transition: opacity 500ms ease, transform 500ms ease;
+  transform: scale(0);
 }
 
 .navigation-link:hover::after {
-    opacity: 1;
-    transform: scale(1);
+  opacity: 1;
+  transform: scale(1);
 }
 
 .navigation-list {
-    padding-left: 93px;
+  padding-left: 93px;
 }
-
-.flex-navigation-list {
-    // display: flex;
-    display: none;
-    /* padding-left: 93px; */
-}
-
-.navigation-item+.navigation-item {
-    margin-left: 50px;
+.navigation-item + .navigation-item {
+  margin-left: 50px;
 }
 
 .addr-icon {
-    width: 16px;
-    height: 16px;
-    margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 .address-header-link:hover .addr-icon {
-    fill: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .address-header-link:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
-.address-header-item+.address-header-item {
-    margin-left: 50px;
+.address-header-item + .address-header-item {
+  margin-left: 50px;
 }

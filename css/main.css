@@ -81,10 +81,24 @@ body {
     border: none;
   }
 }
+@media screen and (min-width: 768px) {
+  .header {
+    width: 768px;
+    height: 80px;
+  }
+  .flex-navigation-list {
+    display: flex;
+  }
+  .header-burger {
+    display: none;
+  }
+  .address-header-list {
+    display: flex;
+  }
+}
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  /* padding: 24px 0px 25px; */
 }
 
 .flex-header {
