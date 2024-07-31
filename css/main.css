@@ -997,12 +997,12 @@ a:active {
   padding: 32px;
   background-color: #fff;
   z-index: 999;
-  transform: translateX(100%);
+  transform: translateX(0%);
   transition: transform 250ms ease-in-out;
 }
 
 .burger-modal.is-open {
-  transform: translateX(0);
+  transform: translateX(100%);
 }
 
 .header-burger-svg {
@@ -1196,8 +1196,8 @@ a:active {
     row-gap: 15px;
   }
 }
-.filters-item + .filters-item {
-  margin-left: 8px;
+.filters-item {
+  margin-right: 8px;
 }
 
 .flex-filter-list {

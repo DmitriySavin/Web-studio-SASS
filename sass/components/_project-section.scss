@@ -6,8 +6,9 @@
             row-gap: 15px;
     }
 }
-.filters-item+.filters-item {
-    margin-left: 8px;
+.filters-item {
+    margin-right: 8px;
+
 }
 .flex-filter-list {
     display: flex;
