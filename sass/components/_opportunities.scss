@@ -57,7 +57,7 @@
                             font-size: 14px;
                             letter-spacing: 0.03em;
                             text-transform: uppercase;
-                            text-align: end;
+                          
                             color: #212121;
                         }
                                                 .opportunities-info {
@@ -72,28 +72,80 @@
                                                 }
     }
 }
+@media screen and (min-width: 768px) {
+
+    .flex-opportunities,
+    .flex-opportunities-list {
+        display: block;
+
+        .antenna::before {
+            content: " ";
+            display: block;
+            width: 354px;
+       
+
+        }
+
+        .clock::before {
+            content: " ";
+            display: block;
+            width: 354px;
+   
+        }
+
+        .diagramm::before {
+            content: " ";
+            display: block;
+            width: 354px;
+       
+        }
+
+        .astronaut::before {
+            content: " ";
+            display: block;
+            width: 354px;
+       
+        }
+
+        .opportunities-list-title {
+        font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #212121;
+        }
+
+        .opportunities-info {
+            width: 354px;
+            height: 50px;
+         
+        }
+               
+    }
+         .flex-opportunities-list {
+             display: flex;
+             flex-wrap: wrap;
+             column-gap: 30px;
+         }
+}
 .opportunities {
     padding-top: 94px;
     padding-bottom: 118px;
 }
 
-// .flex-opportunities {
-//     display: flex;
-//     /* margin: 0 auto; */
-// }
-
-// .flex-opportunities-list {
-//     display: flex;
-//     // column-gap: 30px;
-// }
+.flex-opportunities {
+    // display: flex;
+    /* margin: 0 auto; */
+}
 
 // .opportunities-item {
 //     flex-basis: calc((100% - 30px) / 4);
 // }
 
-/* .opportunities-item + .opportunities-item {
-  margin-left: 30px;
-} */
+//  .opportunities-item + .opportunities-item {
+//   margin-left: 30px;
+// } 
 .opportunities-image-list {
     display: flex;
     justify-content: space-between;
