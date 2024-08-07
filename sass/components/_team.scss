@@ -1,7 +1,7 @@
   .team-list {
       display: flex;
       flex-direction: column;
-      row-gap: 30px;
+      gap: 30px;
   }
 @media screen and (min-width: 480px) {
     .team {
@@ -16,9 +16,20 @@
   
 }
 @media screen and (min-width: 768px) {
+    .team-list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        // column-gap: 30px;
+    }
         .team-img {
                 height: 354px;
             }
+  .team-item {
+    //  width: 367px;
+    flex-basis: calc((100% - 1 * 30px) / 2);
+   }
+                                
 }
 .team {
     padding-top: 94px;

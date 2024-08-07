@@ -27,11 +27,21 @@
                 }
    
 }
+@media screen and (min-width: 768px) {
+    .customers-item {
+                flex-basis: calc((100% - 60px) / 3);
+    }
+        .customers-section {
+            width: 738px;
+            height: auto;
+                    padding-bottom: 60px;
+        }
+}
 .customers-section {
     // width: 1170px;
     // height: 184px;
     margin: 0 auto;
-    margin-bottom: 94px;
+    // margin-bottom: 94px;
 }
 
 // .customers-name {
