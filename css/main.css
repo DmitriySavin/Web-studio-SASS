@@ -95,6 +95,7 @@ body {
   }
   .flex-navigation-list {
     display: flex;
+    padding-left: 87px;
   }
   .address-header-list {
     display: flex;
@@ -122,6 +123,26 @@ body {
     width: 16px;
     height: 16px;
     margin-right: 8px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    margin-left: 200px;
+  }
+  .navigation-list {
+    padding-left: 92px;
+  }
+  .address-header-list {
+    display: flex;
+    flex-wrap: nowrap;
+    row-gap: 0;
+    margin-left: 300px;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .address-header-link {
+    font-size: 14px;
+    min-width: 146px;
   }
 }
 .header {
@@ -213,10 +234,6 @@ a:active {
 .navigation-link:hover::after {
   opacity: 1;
   transform: scale(1);
-}
-
-.navigation-list {
-  padding-left: 87px;
 }
 
 .navigation-item + .navigation-item {
@@ -504,6 +521,20 @@ a:active {
   box-shadow: 2px 2px 10px 2px black;
 }
 
+.hero-section-title {
+  width: 360px;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
 @media screen and (min-width: 480px) {
   .hero-section {
     background-image: url(../../images/hero-mobile.jpg);
@@ -512,36 +543,24 @@ a:active {
     background-size: cover;
     background-repeat: no-repeat;
   }
-  .hero-section .hero-section-title {
-    width: 360px;
-    color: #fff;
-    font-family: var(--font-family);
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 162%;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    text-align: center;
-  }
 }
 @media screen and (min-width: 768px) {
   .hero-section {
     background-image: url(../../images/hero-bg-tablet.jpg);
   }
 }
-.hero-section-title {
-  color: #fff;
-  text-align: center;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.36;
-  letter-spacing: 2.64px;
-  text-transform: uppercase;
-  padding-bottom: 40px;
-  width: 696px;
-  margin: 0 auto;
+@media screen and (min-width: 1200px) {
+  .hero-section {
+    background-image: url(../../images/bg-hero-section.png);
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  .hero-section-title {
+    font-size: 44px;
+    line-height: 1.36;
+    width: 696px;
+  }
 }
-
 @media screen and (min-width: 480px) {
   .flex-opportunities,
   .flex-opportunities-list {
