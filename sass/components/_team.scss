@@ -31,6 +31,14 @@
    }
                                 
 }
+@media screen and (min-width: 1200px) {
+    .team-img {
+        height: 260px;
+    }
+    .team-item {
+        flex-basis: calc((100% - 90px) / 4);
+    }
+}
 .team {
     padding-top: 94px;
     padding-bottom: 94px;

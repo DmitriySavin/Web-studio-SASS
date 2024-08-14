@@ -126,9 +126,6 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .logo {
-    margin-left: 200px;
-  }
   .navigation-list {
     padding-left: 92px;
   }
@@ -296,6 +293,7 @@ a:active {
 @media screen and (min-width: 768px) {
   .logo-logo-footer {
     width: 769px;
+    padding-top: 72px;
   }
   .footer-container {
     display: flex;
@@ -313,9 +311,30 @@ a:active {
     margin-bottom: 20px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .logo-logo-footer {
+    width: auto;
+    padding-top: 60px;
+  }
+  .footer-position {
+    display: flex;
+    justify-content: center;
+  }
+  .our-contacts {
+    margin-left: 70px;
+  }
+  .newsletter {
+    margin-left: 93px;
+  }
+  .newsletter-title {
+    text-align: left;
+  }
+  .form-footer {
+    display: flex;
+  }
+}
 .logo-logo-footer {
   background-color: hsl(235, 10%, 21%);
-  padding-top: 72px;
   padding-bottom: 60px;
 }
 
@@ -423,6 +442,15 @@ a:active {
   .save-data-btn {
     margin-left: 125px;
     margin-right: 125px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .newsletter-btn {
+    margin-left: 12px;
+  }
+  .save-data-btn {
+    margin-left: 164px;
+    margin-right: 164px;
   }
 }
 .hero-section-button {
@@ -685,6 +713,46 @@ a:active {
          column-gap: 30px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .flex-opportunities .antenna::before,
+  .flex-opportunities-list .antenna::before {
+    content: " ";
+    display: block;
+    width: 270px;
+  }
+  .flex-opportunities .clock::before,
+  .flex-opportunities-list .clock::before {
+    content: " ";
+    display: block;
+    width: 270px;
+  }
+  .flex-opportunities .diagramm::before,
+  .flex-opportunities-list .diagramm::before {
+    content: " ";
+    display: block;
+    width: 270px;
+  }
+  .flex-opportunities .astronaut::before,
+  .flex-opportunities-list .astronaut::before {
+    content: " ";
+    display: block;
+    width: 270px;
+  }
+  .flex-opportunities .opportunities-list-title,
+  .flex-opportunities-list .opportunities-list-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+  .flex-opportunities .opportunities-info,
+  .flex-opportunities-list .opportunities-info {
+    width: 270px;
+    height: 72px;
+  }
+}
 .opportunities {
   padding-top: 94px;
   padding-bottom: 118px;
@@ -737,6 +805,54 @@ a:active {
     display: none;
   }
 }
+@media screen and (min-width: 1200px) {
+  .employment {
+    display: block;
+    padding-bottom: 94px;
+  }
+  .employment-title {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1.08px;
+    padding-bottom: 50px;
+  }
+  .flex-employment {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+  }
+  .employment-item + .employment-item {
+    margin-left: 30px;
+  }
+  .employment-card {
+    position: relative;
+    width: 370px;
+    height: 294px;
+  }
+  .employment-desc {
+    position: absolute;
+    display: block;
+    padding: 25px;
+    text-align: center;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+  }
+}
 .team-list {
   display: flex;
   flex-direction: column;
@@ -765,6 +881,14 @@ a:active {
   }
   .team-item {
     flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-img {
+    height: 260px;
+  }
+  .team-item {
+    flex-basis: calc((100% - 90px) / 4);
   }
 }
 .team {
@@ -847,7 +971,7 @@ a:active {
   }
   .modal-title {
     max-width: 370px;
-    line-height: 150%;
+    line-height: 1.5;
   }
   .modal-input {
     width: 370px;
@@ -863,6 +987,24 @@ a:active {
 @media screen and (min-width: 768px) {
   .burger-modal {
     display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+  .modal-title {
+    min-width: 448px;
+  }
+  .modal-input {
+    width: 448px;
+  }
+  .input-comment {
+    width: 448px;
+  }
+  .checkbox-desc {
+    font-size: 14px;
   }
 }
 .backdrop {
@@ -1213,15 +1355,15 @@ a:active {
   .customers-section {
     width: 450px;
     height: 400px;
+    margin-top: 60px;
   }
   .customers-name {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 28px;
     letter-spacing: 0.03em;
-    text-align: center;
-    margin-top: 60px;
     padding-bottom: 30px;
+    text-align: center;
   }
   .customers-list {
     display: flex;
@@ -1243,7 +1385,20 @@ a:active {
   .customers-section {
     width: 738px;
     height: auto;
+    padding-top: 60px;
     padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customers-section {
+    width: 1200px;
+    height: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .customers-item {
+    width: 170px;
+    flex-basis: calc((100% - 150px) / 6);
   }
 }
 .customers-section {
@@ -1265,7 +1420,7 @@ a:active {
   margin-right: 64px;
   margin-top: 23px;
   margin-bottom: 23px;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .customers-link:hover .customers-icon {

@@ -47,6 +47,7 @@
 @media screen and (min-width: 768px) {
   .logo-logo-footer {
     width: 769px;
+    padding-top: 72px;
   }
   .footer-container {
         display: flex;
@@ -64,11 +65,38 @@
               margin-bottom: 20px;
   }
 }
+@media screen and (min-width: 1200px) {
+.logo-logo-footer {
+    width: auto ;
+    padding-top: 60px;
+  }
+.footer-position {
+    display: flex;
+      justify-content: center;
+    }
+        // .footer-container {
+        //   align-items: center;
+        // }
+ .our-contacts {
+      margin-left: 70px;
+    }
+.newsletter {
+      margin-left: 93px;
+    }
+    .newsletter-title {
+              text-align:left ;
+    }
+    .form-footer {
+          display: flex;
+
+    }
+
+}
 .logo-logo-footer {
   background-color: $main-bg-color;
-  padding-top: 72px;
+  // padding-top: 72px;
   padding-bottom: 60px;
-  // max-width: 1600px;
+ 
   // margin: 0 auto;
 }
 

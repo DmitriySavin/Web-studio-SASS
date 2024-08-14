@@ -129,6 +129,58 @@
              column-gap: 30px;
          }
 }
+@media screen and (min-width: 1200px) {
+.flex-opportunities,
+    .flex-opportunities-list {
+        
+
+        .antenna::before {
+            content: " ";
+            display: block;
+            width: 270px;
+            
+
+
+        }
+
+        .clock::before {
+            content: " ";
+            display: block;
+        width: 270px;
+
+        }
+
+        .diagramm::before {
+            content: " ";
+            display: block;
+            width: 270px;
+
+        }
+
+        .astronaut::before {
+            content: " ";
+            display: block;
+            width: 270px;
+
+        }
+
+        .opportunities-list-title {
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #212121;
+        }
+
+        .opportunities-info {
+            width: 270px;
+            height: 72px;
+
+        }
+
+    }
+}
 .opportunities {
     padding-top: 94px;
     padding-bottom: 118px;
