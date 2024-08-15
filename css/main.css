@@ -323,8 +323,15 @@ a:active {
   .our-contacts {
     margin-left: 70px;
   }
+  .contacts-desc {
+    text-align: left;
+  }
   .newsletter {
     margin-left: 93px;
+  }
+  .newsletter-input {
+    width: 358px;
+    margin-bottom: 0;
   }
   .newsletter-title {
     text-align: left;
