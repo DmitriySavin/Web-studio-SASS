@@ -2,13 +2,15 @@
     .flex-opportunities,
     .flex-opportunities-list {
         display: block;
-        .antenna::before {
-                content: " ";
+        .antenna {
+            
                 display: block;
-            width: 450px;
+            width: 270px;
+
                 height: 120px;
-                background-image: url(../images/antenna1.svg), url(../images/opportunities-bg-color.jpg);
-                background-size: 70px, 450px 120px;
+                background-image:  url(../images/opportunities-bg-color.jpg);
+                // url(../images/antenna1.svg),
+                background-size: 450px 120px;
                 
                 background-repeat: no-repeat;
                 background-position: center;
@@ -16,37 +18,43 @@
         
             }
         
-            .clock::before {
-                content: " ";
+            .clock {
+            
                 display: block;
-            width: 450px;
+            width: 270px;
+
                 height: 120px;
-                background-image: url(../images/clock1.svg), url(../images/opportunities-bg-color.jpg);
-            background-size: 70px, 450px 120px;
+                background-image:  url(../images/opportunities-bg-color.jpg);
+                // url(../images/clock1.svg),
+            background-size: 450px 120px;
                 background-repeat: no-repeat;
                 background-position: center;
                 margin-bottom: 30px;
             }
         
-            .diagramm::before {
-                content: " ";
+            .diagramm {
+            
                 display: block;
-            width: 450px;
+            width: 270px;
+
                 height: 120px;
-                background-image: url(../images/diagram1.svg), url(../images/opportunities-bg-color.jpg);
-            background-size: 70px, 450px 120px;
+                background-image:  url(../images/opportunities-bg-color.jpg);
+                // url(../images/diagram1.svg),
+            background-size: 450px 120px;
                 background-repeat: no-repeat;
                 background-position: center;
                 margin-bottom: 30px;
             }
         
-            .astronaut::before {
-                content: " ";
+            .astronaut {
+            
                 display: block;
-            width: 450px;
+            width: 270px;
+
                 height: 120px;
-                background-image: url(../images/astronaut1.svg), url(../images/opportunities-bg-color.jpg);
-            background-size: 70px, 450px 120px;
+                background-image:  url(../images/opportunities-bg-color.jpg);
+                // url(../images/astronaut1.svg),
+            background-size: 450px 120px;
                 background-repeat: no-repeat;
                 background-position: center;
                 margin-bottom: 30px;
