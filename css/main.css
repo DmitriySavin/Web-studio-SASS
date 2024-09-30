@@ -604,49 +604,35 @@ a:active {
   .flex-opportunities-list {
     display: block;
   }
-  .flex-opportunities .antenna,
-  .flex-opportunities-list .antenna {
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-image: url(../images/opportunities-bg-color.jpg);
-    margin-bottom: 30px;
-  }
-  .flex-opportunities .clock,
-  .flex-opportunities-list .clock {
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-image: url(../images/opportunities-bg-color.jpg);
-    margin-bottom: 30px;
-  }
-  .flex-opportunities .diagramm,
-  .flex-opportunities-list .diagramm {
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-image: url(../images/opportunities-bg-color.jpg);
-    margin-bottom: 30px;
-  }
-  .flex-opportunities .astronaut,
-  .flex-opportunities-list .astronaut {
-    display: block;
-    width: 270px;
-    height: 120px;
-    background-image: url(../images/opportunities-bg-color.jpg);
-    margin-bottom: 30px;
-  }
-  .flex-opportunities .opportunities-list-title,
-  .flex-opportunities-list .opportunities-list-title {
+  .opportunities-list-title {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
   }
-  .flex-opportunities .opportunities-info,
-  .flex-opportunities-list .opportunities-info {
+  .opportunities-item {
+    width: 450px;
+  }
+  .flex-opportunities-list {
+    row-gap: 116px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .opportunities-svg {
+    width: 70px;
+  }
+  .opportunities__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+  }
+  .opportunities-info {
     width: 450px;
     height: 50px;
     font-family: var(--font-family);
@@ -656,19 +642,55 @@ a:active {
     letter-spacing: 0.03em;
     color: #757575;
   }
+  .antenna {
+    display: block;
+    height: 120px;
+    background-image: url(../images/opportunities-bg-color.jpg);
+    margin-bottom: 30px;
+  }
+  .clock {
+    display: block;
+    height: 120px;
+    background-image: url(../images/opportunities-bg-color.jpg);
+    margin-bottom: 30px;
+  }
+  .diagramm {
+    display: block;
+    height: 120px;
+    background-image: url(../images/opportunities-bg-color.jpg);
+    margin-bottom: 30px;
+  }
+  .astronaut {
+    display: block;
+    height: 120px;
+    background-image: url(../images/opportunities-bg-color.jpg);
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 768px) {
   .flex-opportunities,
   .flex-opportunities-list {
     display: block;
+  }
+  .flex-opportunities .opportunities-svg,
+  .flex-opportunities-list .opportunities-svg {
+    width: 70px;
+  }
+  .flex-opportunities .flex-opportunities-list,
+  .flex-opportunities-list .flex-opportunities-list {
     row-gap: 100px;
     display: flex;
     flex-wrap: wrap;
     -moz-column-gap: 30px;
          column-gap: 30px;
   }
-  .flex-opportunities .opportunities-list-title,
-  .flex-opportunities-list .opportunities-list-title {
+  .opportunities {
+    padding-top: 60px;
+  }
+  .opportunities-item {
+    width: 354px;
+  }
+  .opportunities-list-title {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 14px;
@@ -676,27 +698,23 @@ a:active {
     text-transform: uppercase;
     color: #212121;
     padding-top: 30px;
+    margin: 0;
+    text-align: left;
   }
-  .flex-opportunities .opportunities-item,
-  .flex-opportunities-list .opportunities-item {
-    width: 354px;
-  }
-  .flex-opportunities .opportunities-svg,
-  .flex-opportunities-list .opportunities-svg {
-    width: 70px;
-  }
-  .flex-opportunities .opportunities-info,
-  .flex-opportunities-list .opportunities-info {
+  .opportunities-info {
     width: 354px;
     height: 50px;
   }
-  .opportunities {
-    padding-top: 60px;
+  .opportunities__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .flex-opportunities .opportunities-list-title,
-  .flex-opportunities-list .opportunities-list-title {
+  .flex-opportunities .antenna .opportunities-list-title,
+  .flex-opportunities-list .antenna .opportunities-list-title {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 14px;
@@ -712,17 +730,23 @@ a:active {
   .opportunities-svg {
     width: 65px;
   }
+  .opportunities-item {
+    width: 270px;
+  }
+  .opportunities__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+  }
+  .opportunities {
+    padding-top: 94px;
+    padding-bottom: 222px;
+  }
 }
-.opportunities__div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 120px;
-}
-
 .opportunities {
-  padding-top: 60px;
-  padding-bottom: 118px;
+  padding-top: 94px;
+  padding-bottom: 222px;
 }
 
 .flex-opportunities {
@@ -758,15 +782,6 @@ a:active {
   background-repeat: no-repeat;
   background-position: 0%;
 } */
-.opportunities-info {
-  width: 270px;
-  height: 72px;
-  color: var(--add-color);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.42px;
-}
-
 @media screen and (min-width: 480px) {
   .employment {
     display: none;
