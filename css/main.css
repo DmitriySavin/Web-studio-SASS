@@ -36,12 +36,12 @@ a {
 }
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -295,7 +295,7 @@ a:active {
 }
 @media screen and (min-width: 768px) {
   .logo-logo-footer {
-    width: 769px;
+    width: 768px;
     padding-top: 72px;
   }
   .footer-container {
@@ -610,9 +610,6 @@ a:active {
     width: 270px;
     height: 120px;
     background-image: url(../images/opportunities-bg-color.jpg);
-    background-size: 450px 120px;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-bottom: 30px;
   }
   .flex-opportunities .clock,
@@ -621,9 +618,6 @@ a:active {
     width: 270px;
     height: 120px;
     background-image: url(../images/opportunities-bg-color.jpg);
-    background-size: 450px 120px;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-bottom: 30px;
   }
   .flex-opportunities .diagramm,
@@ -632,9 +626,6 @@ a:active {
     width: 270px;
     height: 120px;
     background-image: url(../images/opportunities-bg-color.jpg);
-    background-size: 450px 120px;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-bottom: 30px;
   }
   .flex-opportunities .astronaut,
@@ -643,9 +634,6 @@ a:active {
     width: 270px;
     height: 120px;
     background-image: url(../images/opportunities-bg-color.jpg);
-    background-size: 450px 120px;
-    background-repeat: no-repeat;
-    background-position: center;
     margin-bottom: 30px;
   }
   .flex-opportunities .opportunities-list-title,
@@ -673,30 +661,11 @@ a:active {
   .flex-opportunities,
   .flex-opportunities-list {
     display: block;
-  }
-  .flex-opportunities .antenna::before,
-  .flex-opportunities-list .antenna::before {
-    content: " ";
-    display: block;
-    width: 354px;
-  }
-  .flex-opportunities .clock::before,
-  .flex-opportunities-list .clock::before {
-    content: " ";
-    display: block;
-    width: 354px;
-  }
-  .flex-opportunities .diagramm::before,
-  .flex-opportunities-list .diagramm::before {
-    content: " ";
-    display: block;
-    width: 354px;
-  }
-  .flex-opportunities .astronaut::before,
-  .flex-opportunities-list .astronaut::before {
-    content: " ";
-    display: block;
-    width: 354px;
+    row-gap: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    -moz-column-gap: 30px;
+         column-gap: 30px;
   }
   .flex-opportunities .opportunities-list-title,
   .flex-opportunities-list .opportunities-list-title {
@@ -706,44 +675,26 @@ a:active {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    padding-top: 30px;
+  }
+  .flex-opportunities .opportunities-item,
+  .flex-opportunities-list .opportunities-item {
+    width: 354px;
+  }
+  .flex-opportunities .opportunities-svg,
+  .flex-opportunities-list .opportunities-svg {
+    width: 70px;
   }
   .flex-opportunities .opportunities-info,
   .flex-opportunities-list .opportunities-info {
     width: 354px;
     height: 50px;
   }
-  .flex-opportunities-list {
-    display: flex;
-    flex-wrap: wrap;
-    -moz-column-gap: 30px;
-         column-gap: 30px;
+  .opportunities {
+    padding-top: 60px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .flex-opportunities .antenna::before,
-  .flex-opportunities-list .antenna::before {
-    content: " ";
-    display: block;
-    width: 270px;
-  }
-  .flex-opportunities .clock::before,
-  .flex-opportunities-list .clock::before {
-    content: " ";
-    display: block;
-    width: 270px;
-  }
-  .flex-opportunities .diagramm::before,
-  .flex-opportunities-list .diagramm::before {
-    content: " ";
-    display: block;
-    width: 270px;
-  }
-  .flex-opportunities .astronaut::before,
-  .flex-opportunities-list .astronaut::before {
-    content: " ";
-    display: block;
-    width: 270px;
-  }
   .flex-opportunities .opportunities-list-title,
   .flex-opportunities-list .opportunities-list-title {
     font-family: var(--font-family);
@@ -752,19 +703,25 @@ a:active {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    padding-top: 30px;
   }
-  .flex-opportunities .opportunities-info,
-  .flex-opportunities-list .opportunities-info {
+  .opportunities-info {
     width: 270px;
     height: 72px;
   }
-  .flex-opportunities .opportunities-svg,
-  .flex-opportunities-list .opportunities-svg {
+  .opportunities-svg {
     width: 65px;
   }
 }
+.opportunities__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
 .opportunities {
-  padding-top: 94px;
+  padding-top: 60px;
   padding-bottom: 118px;
 }
 
