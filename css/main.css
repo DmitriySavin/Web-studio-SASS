@@ -599,6 +599,11 @@ a:active {
     width: 696px;
   }
 }
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: url(/images/bg-hero-section-2x.png);
+  }
+}
 @media screen and (min-width: 480px) {
   .flex-opportunities,
   .flex-opportunities-list {
