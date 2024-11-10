@@ -1,11 +1,11 @@
 @media screen and (min-width: 480px) {
-    .flex-filter-list {
+    .filter-list__flex {
         // flex-wrap: wrap;
             // width: 396px;
             margin-top: 60px;
             row-gap: 15px;
     }
-    .flex-project-list {
+    .project-list__flex {
         display: flex;
             flex-direction: column;
             gap: 30px;
@@ -14,10 +14,10 @@
 }
 @media screen and (min-width: 768px) {
 
-    .projects-item {
+    .projects-list__item {
             width: 354px;
     }
-.flex-project-list {
+.project-list__flex {
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
@@ -27,11 +27,11 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .projects-item {
+    .projects-list__item {
         width: 370px;
         flex-basis: calc((100% - 120px) / 3);
     }
-        .flex-project-list {
+        .project-list__flex {
             display: flex;
             gap: 30px;
             flex-wrap: wrap;
@@ -39,11 +39,11 @@
             justify-content: center;
         }
 }
-.filters-item {
+.filters-list__item {
     margin-right: 8px;
 
 }
-.flex-filter-list {
+.filter-list__flex {
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
@@ -65,7 +65,7 @@
     padding-bottom: 20px;
 }
 
-.flex-project-list {
+.project-list__flex {
 display: flex;
     // flex-direction: column;
     gap: 30px;
@@ -84,11 +84,11 @@ display: flex;
     width: 100%;
 }
 
-.projects-item {
+.projects-list__item {
     border: 1px solid #eee;
     // flex-basis: calc(100% / 3 - 30px);
 }
-.projects-item:hover {
+.projects-list__item:hover {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
         0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }

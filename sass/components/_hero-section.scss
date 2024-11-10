@@ -1,4 +1,4 @@
-.hero-section-title {
+.hero-section__title {
     width: 360px;
     color: $white;
     font-family: var(--font-family);
@@ -31,7 +31,7 @@
     padding-top: 200px;
     padding-bottom: 200px;
   }
-  .hero-section-title {
+  .hero-section__title {
     font-size: 44px;
     line-height: 1.36;
     width: 696px;
@@ -56,7 +56,7 @@
 //     background-repeat: no-repeat;
 // }
 
-// .hero-section-title {
+// .hero-section__title {
 //     color: $white;
 //     text-align: center;
 //     font-size: 44px;

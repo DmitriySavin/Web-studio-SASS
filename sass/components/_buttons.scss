@@ -6,7 +6,7 @@
         margin-left: 125px;
         margin-right: 125px;
     }
-    .filters-button {
+    .filters-item__button {
         
     }
         }
@@ -19,7 +19,7 @@
             margin-right: 164px;
     }
         }
-.hero-section-button {
+.hero-section__button {
     color: #fff;
     font-size: 16px;
     font-weight: 700;
@@ -96,7 +96,7 @@
     // margin-left: 165px;
     // margin-right: 165px;
 }
-.filters-button {
+.filters-item__button {
     color: $main-color;
     font-size: 16px;
     line-height: 1.62;
@@ -108,8 +108,8 @@
     border: none;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.filters-button:hover,
- .filters-button:focus {
+.filters-item__button:hover,
+ .filters-item__button:focus {
     background-color: $accent-color;
     color: $white;
     box-shadow: 2px 2px 10px 2px black;

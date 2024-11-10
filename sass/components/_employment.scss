@@ -16,7 +16,7 @@
     padding-bottom: 50px;
 }
 
-.flex-employment {
+.employment__flex {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -29,7 +29,7 @@
     justify-content: center;
 }
 
-.employment-item+.employment-item {
+.employment-list__item+.employment-list__item {
     margin-left: 30px;
 }
 
