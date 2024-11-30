@@ -11,6 +11,10 @@
             gap: 30px;
             padding-bottom: 94px;
     }
+        .filters-list__item {
+            margin-right: 24px;
+    
+        }
 }
 @media screen and (min-width: 768px) {
 
@@ -24,6 +28,9 @@
         padding-bottom: 94px;
         flex-direction: row;
     }
+                .filter-list__flex {
+                   justify-content: center;
+                }
 }
 
 @media screen and (min-width: 1200px) {
@@ -40,13 +47,14 @@
         }
 }
 .filters-list__item {
-    margin-right: 8px;
+    // margin-right: 8px;
 
 }
 .filter-list__flex {
     display: flex;
     margin-bottom: 50px;
-    justify-content: center;
+    // justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* наши проекти */
